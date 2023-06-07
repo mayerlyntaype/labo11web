@@ -1,0 +1,12 @@
+.task-filter {
+    margin-bottom: 10px;
+  }
+  
+  .task-filter label {
+    margin-right: 10px;
+  }
+  
+  .task-filter select {
+    padding: 5px;
+  }
+  

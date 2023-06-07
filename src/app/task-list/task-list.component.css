@@ -1,0 +1,17 @@
+.task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .task-list li {
+    margin-bottom: 5px;
+  }
+  
+  .task-list input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .task-list span.completed {
+    text-decoration: line-through;
+  }
+  

@@ -1,0 +1,8 @@
+<div class="task-filter">
+  <label for="filter">Filtrar tareas:</label>
+  <select id="filter" [(ngModel)]="selectedFilter" (change)="onFilterChange()">
+    <option value="all">Todas</option>
+    <option value="completed">Completadas</option>
+    <option value="incomplete">No Completadas</option>
+  </select>
+</div>
