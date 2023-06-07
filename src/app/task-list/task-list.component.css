@@ -4,14 +4,33 @@
   }
   
   .task-list li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
   }
   
   .task-list input[type="checkbox"] {
-    margin-right: 5px;
+    margin-right: 10px;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #ccc;
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .task-list input[type="checkbox"]:checked {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
   }
   
   .task-list span.completed {
     text-decoration: line-through;
+    color: #888;
+  }
+  
+  .task-list span {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: #333;
   }
   
